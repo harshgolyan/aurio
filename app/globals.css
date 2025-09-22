@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 /* @theme inline {
@@ -19,6 +19,7 @@
   --color-secondary: #262626;
   --color-accent: #a3a3a3; 
   --color-primary: #93f940; 
+  --color-card-bg: #0D0D0D;
 }
 
 @media (prefers-color-scheme: dark) {

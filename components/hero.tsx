@@ -15,14 +15,14 @@ export default function Hero() {
         offset: ["start end", "end start"],
     });
     
-    const rotateXRaw = useTransform(scrollYProgress, [0, 1], [40, -40]);
+    const rotateXRaw = useTransform(scrollYProgress, [0, 1], [40, 0]);
     const rotateX = useSpring(rotateXRaw, { stiffness: 80, damping: 20 });
 
     const scaleRaw = useTransform(scrollYProgress, [0, 1], [1, 0.6]);
     const scale = useSpring(scaleRaw, { stiffness: 80, damping: 20 });
 
     return (
-        <div className="flex flex-col justify-center max-w-4xl mx-auto items-center mt-[5rem] relative z-10">
+        <div className="flex flex-col justify-center items-center mt-[10rem] relative z-10">
             <div className="bg-black px-4 py-2 rounded-xl [box-shadow:0px_1px_4px_#8CFF2E] text-primary text-xl font-medium tracking-wide">
                 All-in-One Finance Control
             </div>
