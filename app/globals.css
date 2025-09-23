@@ -18,13 +18,13 @@
   --color-primary: #8CFF2E;
   --color-secondary: #262626;
   --color-accent: #a3a3a3; 
-  --color-primary: #93f940; 
+  /* --color-primary: #93f940;  */
   --color-card-bg: #0D0D0D;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }

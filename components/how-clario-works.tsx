@@ -25,7 +25,7 @@ export default function HowClarioWorks() {
             step: "Step 3",
             heading: "Set goals & stay on track",
             subHeading:
-                "Plan your savings, set monthly budgets, and let Clario keep you in control.",
+                "Plan your savings, set monthly budgets, credit cards, wallets and let Clario keep you in control.",
         },
     ];
 
